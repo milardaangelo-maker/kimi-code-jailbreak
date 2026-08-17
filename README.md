@@ -17,7 +17,7 @@ Running the built `CyberGymKimiInstaller.exe` will:
    - otherwise `%USERPROFILE%\cybergym-kimi-code`
 4. Open a new terminal window in that folder running `kimi`.
 
-The override payload is embedded in `Program.cs`. It keeps Kimi Code's hard stops: no CSAM/minors, no violence, no blood/gore.
+The override payload is embedded in `Program.cs`. It names web vulnerability scanning/exploitation, AI jailbreak/prompt-injection artifacts, malware/reverse-engineering artifacts, and browser/session artifacts as in-scope benchmark work. It keeps Kimi Code's hard stops: no CSAM/minors, no violence, no blood/gore.
 
 ## Build from source
 
