@@ -10,6 +10,10 @@ Regular kimi.com chat cannot load `SYSTEM.md`. Use a **Kimi Project** instead â€
 
 Full playbook: [web/WEB_JAILBREAK.md](web/WEB_JAILBREAK.md)
 
+**Before jailbreak tuning, run system context extraction:** [web/WEB_EXTRACTION.md](web/WEB_EXTRACTION.md)
+
+Project instructions (2000 char limit): [web/PROJECT_INSTRUCTIONS_2000.txt](web/PROJECT_INSTRUCTIONS_2000.txt)
+
 Quick version:
 
 1. Create a Kimi **Project** on kimi.com
