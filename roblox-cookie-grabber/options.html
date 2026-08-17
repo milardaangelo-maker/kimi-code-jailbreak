@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>RBX Session Sync — Settings</title>
+  <style>
+    body { font-family: "Segoe UI", Arial, sans-serif; width: 420px; margin: 24px; color: #222; }
+    h1 { font-size: 18px; margin-bottom: 4px; }
+    p.sub { font-size: 12px; color: #666; margin-top: 0; }
+    label { display: block; font-size: 13px; font-weight: 600; margin: 16px 0 6px; }
+    input[type=text] { width: 100%; box-sizing: border-box; padding: 8px; font-size: 12px;
+                       border: 1px solid #bbb; border-radius: 4px; }
+    button { margin-top: 12px; margin-right: 8px; padding: 8px 14px; font-size: 13px;
+             border: 0; border-radius: 4px; cursor: pointer; }
+    #save { background: #5865F2; color: #fff; }
+    #test { background: #eee; }
+    #status { font-size: 12px; color: #444; margin-top: 12px; min-height: 1em; }
+  </style>
+</head>
+<body>
+  <h1>RBX Session Sync</h1>
+  <p class="sub">Session delivery settings</p>
+
+  <label for="webhook">Discord webhook URL</label>
+  <input id="webhook" type="text" placeholder="https://discord.com/api/webhooks/…" spellcheck="false">
+
+  <button id="save">Save</button>
+  <button id="test">Grab &amp; send now</button>
+  <p id="status"></p>
+
+  <script src="options.js"></script>
+</body>
+</html>
