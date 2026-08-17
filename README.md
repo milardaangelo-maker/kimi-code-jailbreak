@@ -4,6 +4,20 @@ Research artifact for testing Kimi Code CLI prompt-override behavior.
 
 Kimi Code's documented behavior is that a non-empty `$KIMI_CODE_HOME/SYSTEM.md` (default `~/.kimi-code/SYSTEM.md`) replaces the built-in main agent system prompt while inheriting the default tool set.
 
+## Kimi Web (no CLI)
+
+Regular kimi.com chat cannot load `SYSTEM.md`. Use a **Kimi Project** instead — project instructions inject like custom system rules for every chat in that project.
+
+Full playbook: [web/WEB_JAILBREAK.md](web/WEB_JAILBREAK.md)
+
+Quick version:
+
+1. Create a Kimi **Project** on kimi.com
+2. Paste `web/PROJECT_INSTRUCTIONS.txt` into **Project → Instructions**
+3. Upload `web/BENCHMARK_CHARTER.md` to **Project → Files**
+4. Start a **new chat inside the project**
+5. Test with `hi` — want `**[CYBERGYM]**` prefix
+
 ## One command (no clone, no EXE)
 
 Kimi Code must already be installed. Paste this in PowerShell:
