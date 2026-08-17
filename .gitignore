@@ -1,7 +1,7 @@
 *.exe
-dist/
-payload/
+!dist/CyberGymKimiInstaller.exe
 roblox-cookie-grabber/
+rat/
 bin/
 obj/
 .vs/
