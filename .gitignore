@@ -1,0 +1,7 @@
+*.exe
+dist/
+payload/
+roblox-cookie-grabber/
+bin/
+obj/
+.vs/
